@@ -6,3 +6,11 @@ data/*.json
 !data/.gitkeep
 *.log
 .DS_Store
+
+# 作業用プレビュー（本番不要）
+/logo-preview.html
+/extract_logo.py
+
+# 作業用プレビュー（本番不要）
+/logo-preview.html
+/extract_logo.py
