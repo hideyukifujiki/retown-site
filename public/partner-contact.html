@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>加盟店募集フォーム｜リタウン出張買取 地域独占パートナープラン</title>
+<meta name="description" content="リタウン出張買取 地域独占パートナープランの加盟店募集フォーム。希望エリア・対応品目・古物商許可情報をご記入のうえ、担当者へお問い合わせください。各エリア1社限定のため、空き状況は先着順となります。" />
+<link rel="icon" type="image/png" href="images/icon.png?v=2" />
+<link rel="apple-touch-icon" href="images/icon.png?v=2" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2" />
+<style>
+.form-field { display:flex;flex-direction:column;gap:8px;margin-bottom:22px }
+.form-field label { font-size:14px;font-weight:700;color:#0F3D6B;display:flex;align-items:center;gap:8px }
+.form-field .req { background:#F2822C;color:#fff;font-size:10px;padding:2px 8px;border-radius:4px;letter-spacing:.05em }
+.form-field .opt { background:#E4E9F3;color:#5A6376;font-size:10px;padding:2px 8px;border-radius:4px;letter-spacing:.05em }
+.form-field input, .form-field textarea, .form-field select {
+  border:1.5px solid #E4E9F3;border-radius:10px;padding:14px 16px;font-size:15px;font-family:inherit;color:#0F3D6B;width:100%;background:#FAFBFD;transition:.2s
+}
+.form-field input:focus, .form-field textarea:focus, .form-field select:focus { outline:none;border-color:#F2822C;background:#fff;box-shadow:0 0 0 4px rgba(242,130,44,.12) }
+.form-field textarea { min-height:120px;resize:vertical }
+.checkbox-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:6px }
+.checkbox-grid label { background:#fff;border:1.5px solid #E4E9F3;border-radius:10px;padding:11px 14px;font-size:13.5px;cursor:pointer;display:flex;align-items:center;gap:8px;color:#0F3D6B;font-weight:500;transition:.2s }
+.checkbox-grid label:hover { border-color:#F2822C;background:#FFF1E5 }
+.checkbox-grid input { width:auto;margin:0 }
+@media (max-width:680px) { .checkbox-grid { grid-template-columns:1fr 1fr } }
+</style>
+</head>
+<body>
+
+<!-- Top notice -->
+<div class="notice-bar" style="background:#0F3D6B;color:#fff">
+  ★ <strong>BtoB専用ページ</strong> ／ 各エリア1社限定の地域独占パートナー募集 ／ 出張買取業者・リサイクルショップ様向け
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="./" class="logo" aria-label="リタウン 出張買取">
+      <img src="images/logo.svg?v=2" alt="リタウン 出張買取" />
+    </a>
+    <nav class="nav">
+      <a href="#problem">こんな業者様へ</a>
+      <a href="#plan">プラン内容</a>
+      <a href="#feature">提供内容</a>
+      <a href="#osaka">大阪・神戸の例</a>
+      <a href="#price">料金</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header-cta">
+      <a href="partner-contact.html" class="btn-line-mini" style="background:#F2822C;color:#fff">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M21 8V7l-3 2-3-2v1l3 2 3-2zm0 4l-3-2-3 2v6h6v-6z"/></svg>
+        加盟店募集フォーム
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero" style="background:linear-gradient(135deg,#1F3A5F 0%,#0F3D6B 100%);color:#fff;padding:60px 0 50px">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="パンくず" style="margin-bottom:14px">
+      <a href="./" style="color:#D9DEE8">トップ</a>
+      <span class="sep" style="color:#B7C0D2">›</span>
+      <a href="partner.html" style="color:#D9DEE8">加盟店募集</a>
+      <span class="sep" style="color:#B7C0D2">›</span>
+      <span style="color:#fff">加盟店募集フォーム</span>
+    </nav>
+    <p style="font-size:12px;color:#F2822C;letter-spacing:.1em;font-weight:700;margin-bottom:10px">PARTNER APPLICATION</p>
+    <h1 style="font-size:34px;font-weight:900;line-height:1.45;margin-bottom:14px">
+      加盟店募集<span style="color:#F2822C">フォーム</span>
+    </h1>
+    <p style="font-size:15px;color:#D9DEE8;line-height:1.95;max-width:780px">
+      リタウン出張買取 地域独占パートナープランへの加盟をご検討の業者様は、下記フォームよりお問い合わせください。<br>
+      担当者より2営業日以内にご連絡いたします。
+    </p>
+  </div>
+</section>
+
+<!-- 申込前案内 -->
+<section style="padding:48px 0 0;background:#FAFBFD">
+  <div class="container" style="max-width:920px">
+    <div style="background:#fff;border-radius:18px;padding:32px;border-left:5px solid #F2822C;box-shadow:0 8px 28px rgba(15,61,107,.06)">
+      <h2 style="font-size:18px;color:#0F3D6B;font-weight:900;margin-bottom:14px">📋 お申し込み前にご確認ください</h2>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:#5A6376;line-height:1.75">
+        <li style="display:grid;grid-template-columns:24px 1fr;gap:10px"><span style="color:#F2822C;font-weight:900">✓</span><span>各エリア<strong style="color:#F2822C">1社限定</strong>のため、希望エリアによっては既に募集を停止している場合があります。</span></li>
+        <li style="display:grid;grid-template-columns:24px 1fr;gap:10px"><span style="color:#F2822C;font-weight:900">✓</span><span>加盟には<strong style="color:#0F3D6B">古物商許可</strong>が必要です。許可番号をフォームにご記入ください。</span></li>
+        <li style="display:grid;grid-template-columns:24px 1fr;gap:10px"><span style="color:#F2822C;font-weight:900">✓</span><span>最低契約期間は<strong style="color:#0F3D6B">3ヶ月または6ヶ月</strong>で個別調整します。</span></li>
+        <li style="display:grid;grid-template-columns:24px 1fr;gap:10px"><span style="color:#F2822C;font-weight:900">✓</span><span>本フォームはお問い合わせ受付であり、契約成立を意味するものではありません。<br>内容確認のうえ、担当者より別途ご連絡・お打ち合わせとなります。</span></li>
+        <li style="display:grid;grid-template-columns:24px 1fr;gap:10px"><span style="color:#F2822C;font-weight:900">✓</span><span>掲載開始までは、お申し込み後 通常2〜4週間程度のリードタイムをいただきます。</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- フォーム -->
+<section style="padding:42px 0 90px;background:#FAFBFD">
+  <div class="container" style="max-width:920px">
+    <div id="partner-form-success" style="display:none;background:#ECFDF5;border:1.5px solid #6EE7B7;border-radius:18px;padding:42px;text-align:center;margin-bottom:24px">
+      <div style="font-size:48px;margin-bottom:12px">✅</div>
+      <h3 style="font-size:22px;color:#0F3D6B;font-weight:900;margin-bottom:12px">加盟店募集の申込を受付けました</h3>
+      <p style="color:#374151;line-height:1.95">内容を確認のうえ、担当者より<strong>2営業日以内</strong>にご連絡いたします。<br>各エリア1社限定のため、空き状況により受付が前後する場合がございます。</p>
+    </div>
+
+    <form id="partner-form" style="background:#fff;border-radius:24px;padding:48px;box-shadow:0 12px 36px rgba(15,61,107,.08)">
+      <input type="hidden" name="region" value="tokyo" />
+      <input type="hidden" name="type" value="partner" />
+
+      <h3 style="font-size:17px;color:#F2822C;font-weight:900;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #FFF1E5">▼ 会社情報</h3>
+
+      <div class="form-field">
+        <label>会社名 / 屋号 <span class="req">必須</span></label>
+        <input type="text" name="company" required placeholder="例：株式会社○○リサイクル">
+      </div>
+
+      <div class="form-field">
+        <label>ご担当者様 お名前 <span class="req">必須</span></label>
+        <input type="text" name="name" required placeholder="例：山田 太郎">
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px" class="row2">
+        <div class="form-field">
+          <label>ご担当者様 電話番号 <span class="req">必須</span></label>
+          <input type="tel" name="tel" required placeholder="例：03-1234-5678">
+        </div>
+        <div class="form-field">
+          <label>メールアドレス <span class="req">必須</span></label>
+          <input type="email" name="email" required placeholder="例：example@company.co.jp">
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>会社所在地 <span class="req">必須</span></label>
+        <input type="text" name="address" required placeholder="例：東京都新宿区西新宿1-1-1">
+      </div>
+
+      <div class="form-field">
+        <label>会社HP・店舗URL <span class="opt">任意</span></label>
+        <input type="url" name="website" placeholder="例：https://example.com">
+      </div>
+
+      <h3 style="font-size:17px;color:#F2822C;font-weight:900;margin:36px 0 20px;padding-bottom:12px;border-bottom:2px solid #FFF1E5">▼ 事業内容</h3>
+
+      <div class="form-field">
+        <label>古物商許可番号 <span class="req">必須</span></label>
+        <input type="text" name="kobutsushou" required placeholder="例：第○○○○○○○○○○号">
+      </div>
+
+      <div class="form-field">
+        <label>事業年数 <span class="req">必須</span></label>
+        <select name="years" required>
+          <option value="">選択してください</option>
+          <option>1年未満</option>
+          <option>1〜3年</option>
+          <option>3〜5年</option>
+          <option>5〜10年</option>
+          <option>10年以上</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label>主な対応品目 <span class="req">必須・複数選択可</span></label>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" name="items" value="家電">家電・冷蔵庫</label>
+          <label><input type="checkbox" name="items" value="家具">家具・ソファ</label>
+          <label><input type="checkbox" name="items" value="ブランド品">ブランド品</label>
+          <label><input type="checkbox" name="items" value="腕時計">腕時計</label>
+          <label><input type="checkbox" name="items" value="貴金属">金・貴金属</label>
+          <label><input type="checkbox" name="items" value="楽器">楽器・ギター</label>
+          <label><input type="checkbox" name="items" value="カメラ">カメラ・レンズ</label>
+          <label><input type="checkbox" name="items" value="AV機器">テレビ・AV機器</label>
+          <label><input type="checkbox" name="items" value="骨董">骨董・美術品</label>
+          <label><input type="checkbox" name="items" value="着物">着物・帯</label>
+          <label><input type="checkbox" name="items" value="お酒">お酒・洋酒</label>
+          <label><input type="checkbox" name="items" value="厨房機器">厨房機器（業務用）</label>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>家まるごと買取・遺品整理の対応 <span class="req">必須</span></label>
+        <select name="service" required>
+          <option value="">選択してください</option>
+          <option>家まるごと・遺品整理ともに対応可</option>
+          <option>家まるごとのみ対応可</option>
+          <option>遺品整理のみ対応可</option>
+          <option>どちらも対応していない（品目買取のみ）</option>
+        </select>
+      </div>
+
+      <h3 style="font-size:17px;color:#F2822C;font-weight:900;margin:36px 0 20px;padding-bottom:12px;border-bottom:2px solid #FFF1E5">▼ 希望エリア</h3>
+
+      <div class="form-field">
+        <label>希望エリア <span class="req">必須・複数選択可</span></label>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" name="area" value="大阪・神戸">大阪・神戸（¥99,800/月）</label>
+          <label><input type="checkbox" name="area" value="千葉">千葉（¥49,800/月）</label>
+          <label><input type="checkbox" name="area" value="埼玉">埼玉（¥49,800/月）</label>
+          <label><input type="checkbox" name="area" value="名古屋">名古屋（¥49,800/月）</label>
+          <label><input type="checkbox" name="area" value="札幌">札幌（¥29,800/月）</label>
+          <label><input type="checkbox" name="area" value="福岡">福岡（¥29,800/月）</label>
+          <label><input type="checkbox" name="area" value="その他">その他全国都市（¥19,800/月）</label>
+          <label><input type="checkbox" name="area" value="未定">未定・要相談</label>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>その他ご希望のエリア・対応可能な市区町村 <span class="opt">任意</span></label>
+        <input type="text" name="area_detail" placeholder="例：堺市・東大阪市・尼崎市など">
+      </div>
+
+      <h3 style="font-size:17px;color:#F2822C;font-weight:900;margin:36px 0 20px;padding-bottom:12px;border-bottom:2px solid #FFF1E5">▼ 体制・受付チャネル</h3>
+
+      <div class="form-field">
+        <label>1日に対応可能な出張買取件数 <span class="req">必須</span></label>
+        <select name="capacity" required>
+          <option value="">選択してください</option>
+          <option>1〜2件/日</option>
+          <option>3〜5件/日</option>
+          <option>5〜10件/日</option>
+          <option>10件以上/日</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label>受付可能なチャネル <span class="req">必須・複数選択可</span></label>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" name="channel" value="電話">電話受付</label>
+          <label><input type="checkbox" name="channel" value="メール">メール受付</label>
+          <label><input type="checkbox" name="channel" value="LINE">LINE公式アカウント</label>
+          <label><input type="checkbox" name="channel" value="フォーム">WEBフォーム</label>
+        </div>
+      </div>
+
+      <h3 style="font-size:17px;color:#F2822C;font-weight:900;margin:36px 0 20px;padding-bottom:12px;border-bottom:2px solid #FFF1E5">▼ ご相談内容</h3>
+
+      <div class="form-field">
+        <label>その他お問い合わせ・ご質問 <span class="opt">任意</span></label>
+        <textarea name="message" placeholder="例：契約期間の相談、初期セットアップの希望、特定の品目強化希望、過去の集客の悩みなど自由にお書きください。"></textarea>
+      </div>
+
+      <div style="background:#FAFBFD;border-radius:14px;padding:24px;margin:30px 0;border:1.5px solid #E4E9F3">
+        <p style="font-size:13.5px;color:#5A6376;line-height:1.95">
+          ご記入いただいた情報は、本件のお問い合わせ対応および加盟審査の目的にのみ利用します。<br>
+          詳しくは<a href="privacy.html" target="_blank" style="color:#F2822C;font-weight:700">プライバシーポリシー</a>をご確認ください。
+        </p>
+        <label style="display:flex;align-items:center;gap:10px;margin-top:14px;font-size:14px;color:#0F3D6B;font-weight:700;cursor:pointer">
+          <input type="checkbox" name="agree" required style="width:18px;height:18px"> プライバシーポリシーに同意する
+        </label>
+      </div>
+
+      <div id="partner-form-error" style="display:none;background:#FEF2F2;border:1.5px solid #FCA5A5;color:#DC2626;border-radius:10px;padding:14px 18px;font-size:14px;margin-bottom:16px"></div>
+
+      <div style="text-align:center;margin-top:30px">
+        <button type="submit" id="partner-submit-btn" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#F2822C,#F5A263);color:#fff;padding:18px 56px;border:none;border-radius:14px;font-weight:900;font-size:16.5px;cursor:pointer;box-shadow:0 10px 28px rgba(242,130,44,.4);transition:.2s;font-family:inherit">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M21 8V7l-3 2-3-2v1l3 2 3-2zm0 4l-3-2-3 2v6h6v-6z"/></svg>
+          この内容で送信する
+        </button>
+        <p style="margin-top:14px;font-size:13px;color:#5A6376">送信後、担当者より2営業日以内にご連絡いたします。</p>
+      </div>
+    </form>
+
+    <script>
+    (function(){
+      var API_ENDPOINT = "/api/submit";
+      var form = document.getElementById("partner-form");
+      var submitBtn = document.getElementById("partner-submit-btn");
+      var errorBox = document.getElementById("partner-form-error");
+      var successBox = document.getElementById("partner-form-success");
+      if (!form) return;
+      form.addEventListener("submit", async function(e){
+        e.preventDefault();
+        errorBox.style.display = "none";
+        submitBtn.disabled = true;
+        submitBtn.textContent = "送信中…";
+        var fd = new FormData(form);
+        var data = { items: [], desiredAreas: [], channels: [] };
+        fd.forEach(function(v, k){
+          if (k === "items") { data.items.push(String(v)); return; }
+          if (k === "area")    { data.desiredAreas.push(String(v)); return; }
+          if (k === "channel") { data.channels.push(String(v)); return; }
+          data[k] = v;
+        });
+        try {
+          var res = await fetch(API_ENDPOINT, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+          });
+          if (!res.ok) throw new Error("submit_failed");
+          form.style.display = "none";
+          successBox.style.display = "block";
+          window.scrollTo({ top: successBox.offsetTop - 100, behavior: "smooth" });
+        } catch (err) {
+          errorBox.textContent = "送信に失敗しました。お手数ですがしばらく経ってから再度お試しください。";
+          errorBox.style.display = "block";
+          submitBtn.disabled = false;
+          submitBtn.textContent = "この内容で送信する";
+        }
+      });
+    })();
+    </script>
+
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" aria-label="リタウン 出張買取">
+          <img src="images/logo.svg?v=2" alt="リタウン 出張買取" />
+        </div>
+        <p style="margin-top:16px;font-size:13.5px;line-height:1.8;color:#B7BFCF">
+          「お家まるごと、一番高く」<br>
+          地域別出張買取メディア × 一括見積もりサービスを運営。<br>
+          各エリア1社限定の地域独占パートナーを募集中です。
+        </p>
+        <div class="fudosan-info">
+          留学JP株式会社<br>
+          東京都調布市染地3-1-92<br>
+          BtoBお問い合わせ：partner@retown.jp<br>
+          古物商許可番号：第452530004627号（神奈川県公安委員会）<br>
+          遺品整理士認定協会 認定番号：IS-25728<br>
+          営業時間：10:00〜20:00（年中無休）
+        </div>
+      </div>
+      <div>
+        <h5>地域別サイト</h5>
+        <ul>
+          <li><a href="./">東京・神奈川</a></li>
+          <li><a href="osaka-kobe/">大阪・神戸</a></li>
+          <li><a href="nagoya/">名古屋</a></li>
+          <li><a href="sapporo/">札幌</a></li>
+          <li><a href="fukuoka/">福岡</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>パートナー募集</h5>
+        <ul>
+          <li><a href="partner.html">地域独占パートナーとは</a></li>
+          <li><a href="partner.html#plan">プラン内容</a></li>
+          <li><a href="partner.html#price">料金</a></li>
+          <li><a href="partner.html#faq">よくあるご質問</a></li>
+          <li><a href="partner-contact.html">加盟店募集フォーム</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>会社情報</h5>
+        <ul>
+          <li><a href="about.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ（一般）</a></li>
+          <li><a href="privacy.html">プライバシーポリシー</a></li>
+          <li><a href="#">特定商取引法に基づく表記</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Ryugakujp Inc. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
